@@ -1,0 +1,69 @@
+nav{
+    background: #eee;
+}
+
+li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+ul{
+    width:80%;
+    margin:0;
+    padding:0;
+}
+
+nav > div {
+    background: #333;
+    color: #fff;
+    display:inline-block;
+}
+
+.main > .top > img{
+    float: left;
+}
+
+.leftColumn{
+    border: solid 1px purple;
+    width: 29%;
+    float:left;
+    padding: 10px;
+}
+
+.avatar{
+    text-align:center;
+
+}
+
+.main{
+    width: 63%;
+    border: solid 1px blue;
+    float:left;
+    overflow:auto;
+}
+
+img{
+    border: solid 1px red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.imgGroup{
+    text-align: center;
+}
+
+.top{
+    padding: 20px;
+}
+
+.morePhotos{
+    padding: 20px;
+    text-align:center;
+}
+
+.imgGroup > img{
+    width:30%;
+    background: #000;
+}
